@@ -1,11 +1,11 @@
 {
-  "name": "svelte-app",
+  "name": "corvoplot",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "yarn build && node server/server.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
