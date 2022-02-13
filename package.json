@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "yarn build && node server/server.js"
+    "start": "node server/server.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
